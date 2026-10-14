@@ -1,0 +1,41 @@
+// Resources of calc.exe 10.0.26100.8521, reconstructed from the original
+// image (types 3/14 icons, 16 version, 24 manifest; all LANG_ENGLISH/US).
+#pragma code_page(65001)
+
+LANGUAGE 0x09, 0x01
+
+// RT_GROUP_ICON "IDI_CALC_ICON" + RT_ICON 1..4 (16x16, 256x256 PNG, 32x32, 48x48; 32bpp)
+IDI_CALC_ICON ICON "calc.ico"
+
+// RT_MANIFEST, CREATEPROCESS_MANIFEST_RESOURCE_ID
+1 24 "aicalc.exe.manifest"
+
+// RT_VERSION
+1 VERSIONINFO
+ FILEVERSION 10,0,26100,8521
+ PRODUCTVERSION 10,0,26100,8521
+ FILEFLAGSMASK 0x3FL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Microsoft Corporation"
+            VALUE "FileDescription", "Windows Calculator"
+            VALUE "FileVersion", "10.0.26100.8521 (WinBuild.160101.0800)"
+            VALUE "InternalName", "CALC"
+            VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+            VALUE "OriginalFilename", "CALC.EXE"
+            VALUE "ProductName", "Microsoft® Windows® Operating System"
+            VALUE "ProductVersion", "10.0.26100.8521"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

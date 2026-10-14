@@ -1,0 +1,6 @@
+# Byte-exact files: the manifest is embedded and compared byte for byte with
+# the original calc.exe (CRLF line endings), so it must never be normalised.
+res/aicalc.exe.manifest -text
+*.exe binary
+*.ico binary
+*.png binary

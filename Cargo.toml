@@ -1,0 +1,42 @@
+[package]
+name = "aicalc"
+version = "10.0.26100"
+edition = "2021"
+description = "Rust translation of Windows calc.exe (10.0.26100.8521, x86)"
+build = "build.rs"
+publish = false
+
+# Logic lives in the library so it can be unit-tested on the host with mocked
+# Win32 entry points; the binary is only the no_std image entry point.
+[lib]
+name = "aicalc"
+path = "src/lib.rs"
+
+[[bin]]
+name = "aicalc"
+path = "src/main.rs"
+test = false
+bench = false
+
+# The image has no C runtime, so unoptimised builds (whose panic paths keep
+# core's formatting code, which needs memcpy/_fltused/__CxxFrameHandler3...)
+# cannot link. Optimisation + LTO strips that dead code; debug info stays.
+# core's debug-assertion UB checks end in `panic_nounwind`, whose cleanup pad
+# needs the MSVC C++ frame handler, so those are off as in release.
+[profile.dev]
+panic = "abort"
+opt-level = "s"
+lto = true
+debug-assertions = false
+
+# Unit tests run on the host with std and mocks: no such constraint.
+[profile.test]
+opt-level = 0
+lto = false
+
+[profile.release]
+panic = "abort"
+opt-level = "s"
+lto = true
+codegen-units = 1
+debug = false

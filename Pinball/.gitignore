@@ -1,0 +1,17 @@
+/target/
+/artifacts/standalone/
+/artifacts/*.log
+/aipinball-error.log
+**/__pycache__/
+/generated/*.bin
+/generated/*.res
+
+# Supply original game data locally; the public repository contains source.
+/*.[dD][aA][tT]
+/*.[wW][aA][vV]
+/*.[mM][iI][dD]
+/*.[bB][mM][pP]
+/*.[iI][nN][fF]
+/desktop.ini
+/.metadata/
+/artifacts/

@@ -1,0 +1,17 @@
+[package]
+name = "aipinball"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+publish = false
+
+[workspace]
+
+[profile.release]
+opt-level = 3
+debug = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 1
+panic = "abort"

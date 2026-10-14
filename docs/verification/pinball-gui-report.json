@@ -1,0 +1,306 @@
+{
+  "PINBALL.EXE": {
+    "menus": [
+      {
+        "text": "&Game",
+        "id": 4294967295,
+        "children": [
+          {
+            "text": "&New Game\tF2",
+            "id": 101,
+            "children": []
+          },
+          {
+            "text": "&Launch Ball",
+            "id": 401,
+            "children": []
+          },
+          {
+            "text": "&Pause/Resume Game\tF3",
+            "id": 402,
+            "children": []
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "&High Scores...",
+            "id": 103,
+            "children": []
+          },
+          {
+            "text": "&Demo",
+            "id": 404,
+            "children": []
+          },
+          {
+            "text": "E&xit",
+            "id": 105,
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "&Options",
+        "id": 4294967295,
+        "children": [
+          {
+            "text": "&Full Screen\tF4",
+            "id": 403,
+            "children": []
+          },
+          {
+            "text": "Select &Players",
+            "id": 4294967295,
+            "children": [
+              {
+                "text": "&1 Player",
+                "id": 408,
+                "children": []
+              },
+              {
+                "text": "&2 Players",
+                "id": 409,
+                "children": []
+              },
+              {
+                "text": "&3 Players",
+                "id": 410,
+                "children": []
+              },
+              {
+                "text": "&4 Players",
+                "id": 411,
+                "children": []
+              }
+            ]
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "&Sounds",
+            "id": 201,
+            "children": []
+          },
+          {
+            "text": "&Music",
+            "id": 202,
+            "children": []
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "P&layer Controls...\tF8",
+            "id": 406,
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "&Help",
+        "id": 4294967295,
+        "children": [
+          {
+            "text": "&Help Topics\tF1",
+            "id": 301,
+            "children": []
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "&About Pinball",
+            "id": 102,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "dialogs": [
+      {
+        "name": "controls",
+        "title": "3D Pinball: Player Controls",
+        "size": [
+          426,
+          297
+        ]
+      },
+      {
+        "name": "high-scores",
+        "title": "High Scores",
+        "size": [
+          411,
+          229
+        ]
+      }
+    ],
+    "demo_animated": true,
+    "exit_code": 0
+  },
+  "aipinball.exe": {
+    "menus": [
+      {
+        "text": "&Game",
+        "id": 4294967295,
+        "children": [
+          {
+            "text": "&New Game\tF2",
+            "id": 101,
+            "children": []
+          },
+          {
+            "text": "&Launch Ball",
+            "id": 401,
+            "children": []
+          },
+          {
+            "text": "&Pause/Resume Game\tF3",
+            "id": 402,
+            "children": []
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "&High Scores...",
+            "id": 103,
+            "children": []
+          },
+          {
+            "text": "&Demo",
+            "id": 404,
+            "children": []
+          },
+          {
+            "text": "E&xit",
+            "id": 105,
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "&Options",
+        "id": 4294967295,
+        "children": [
+          {
+            "text": "&Full Screen\tF4",
+            "id": 403,
+            "children": []
+          },
+          {
+            "text": "Select &Players",
+            "id": 4294967295,
+            "children": [
+              {
+                "text": "&1 Player",
+                "id": 408,
+                "children": []
+              },
+              {
+                "text": "&2 Players",
+                "id": 409,
+                "children": []
+              },
+              {
+                "text": "&3 Players",
+                "id": 410,
+                "children": []
+              },
+              {
+                "text": "&4 Players",
+                "id": 411,
+                "children": []
+              }
+            ]
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "&Sounds",
+            "id": 201,
+            "children": []
+          },
+          {
+            "text": "&Music",
+            "id": 202,
+            "children": []
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "P&layer Controls...\tF8",
+            "id": 406,
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "&Help",
+        "id": 4294967295,
+        "children": [
+          {
+            "text": "&Help Topics\tF1",
+            "id": 301,
+            "children": []
+          },
+          {
+            "text": "",
+            "id": 0,
+            "children": []
+          },
+          {
+            "text": "&About Pinball",
+            "id": 102,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "dialogs": [
+      {
+        "name": "controls",
+        "title": "3D Pinball: Player Controls",
+        "size": [
+          426,
+          297
+        ]
+      },
+      {
+        "name": "high-scores",
+        "title": "High Scores",
+        "size": [
+          411,
+          229
+        ]
+      }
+    ],
+    "demo_animated": true,
+    "exit_code": 0
+  },
+  "paused_pixels_different": 0,
+  "total_pixels": 249600,
+  "menus_equal": true,
+  "dialogs_equal": true,
+  "dialog_pixel_differences": {
+    "controls": 0,
+    "high-scores": 0
+  }
+}

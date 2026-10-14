@@ -1,0 +1,12 @@
+# The original calc.exe is a 32-bit (PE32, IMAGE_FILE_MACHINE_I386) image,
+# so the translation is built for the same architecture by default.
+[build]
+target = "i686-pc-windows-msvc"
+
+# Control Flow Guard, as the original (/guard:cf): instruments indirect calls
+# and makes rustc pass /guard:cf to link.exe.
+[target.i686-pc-windows-msvc]
+rustflags = ["-C", "control-flow-guard=checks"]
+
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "control-flow-guard=checks"]

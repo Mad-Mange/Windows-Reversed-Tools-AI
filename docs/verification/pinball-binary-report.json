@@ -1,0 +1,9 @@
+{
+  "reference_sha256": "2bbc8234685fe2f6324040af6ea20123cf00c4a56882ce0d9074f0beefac67bc",
+  "identical_resources": 33,
+  "nonexecutable_reference_data": true,
+  "native_rust_code_separate": true,
+  "compatibility_versions_match": true,
+  "standalone_without_original_exe": true,
+  "all_passed": true
+}
